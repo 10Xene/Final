@@ -103,7 +103,6 @@ def crearDiccionario(nombre, apellido1, apellido2):
     return diccionario
 nombre = "Nombre"
 apellido1 = "Apellido1"
-
 '''
 OUTPUT:
 Nombre
