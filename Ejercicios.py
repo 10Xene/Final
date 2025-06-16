@@ -46,7 +46,8 @@ def numero1():
 def numero2():
     return int(input("Ingrese el segundo número: "))
 def sumar(num1, num2):
-    return num1 + num2          
+    return num1 + num2
+print("Ingrese dos números para sumarlos:")     
 print(f"SUMA: {sumar(numero1, numero2)}")
 
 
