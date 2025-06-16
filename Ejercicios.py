@@ -41,12 +41,22 @@ El número ahora es 1
 #    y una vez indicados se llama a la función pasando los números que el usuario ha escrito.
 #    La función sumará los números y devolverá el resultado
 
+def numero1():
+    return int(input("Ingrese el primer número: "))
+def numero2():
+    return int(input("Ingrese el segundo número: "))
+def sumar(num1, num2):
+    return num1 + num2          
 print(f"SUMA: {sumar(numero1, numero2)}")
 
 
 
 # 5. Crea una función para que, cuando se le pase una lista cualquiera, imprima sus valores en orden inverso
 
+
+def imprimirListaInversa(lista):
+    for elemento in reversed(lista):
+        print(f"- {elemento}")
 nombres = ["Mengano", "Fulano", "Zutano", "Perantano"]
 imprimirListaInversa(nombres)
 '''
