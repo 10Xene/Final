@@ -19,6 +19,8 @@ def imprimirNumeros(lista):
         print(numero)
 imprimirNumeros(numeros)
 
+print()
+print()
 '''
 OUTPUT:
 4
@@ -39,7 +41,8 @@ def reducirNumero():
     while numero >= 0:
         print(f"El número ahora es {numero}")
         numero -= 1
-
+print()
+print()
 '''
 OUTPUT:
 El número ahora es 5
@@ -68,7 +71,8 @@ def sumar(numero1, numero2):
     return numero1 + numero2
 print(f"SUMA: {sumar(numero1, numero2)}")
 
-
+print()
+print()
 
 # 5. Crea una función para que, cuando se le pase una lista cualquiera, imprima sus valores en orden inverso
 
@@ -78,6 +82,9 @@ def imprimirListaInversa(lista):
         print(f"- {elemento}")
 nombres = ["Mengano", "Fulano", "Zutano", "Perantano"]
 imprimirListaInversa(nombres)
+
+print()
+print()
 '''
 OUTPUT:
 - Perantano
@@ -95,6 +102,8 @@ def buscarPalabra(lista, palabra):
     return palabra in lista
 print(buscarPalabra(["Fulano", "Mengano", "Zutano"], "Mengano")) # OUTPUT: True
 
+print()
+print()
 
 
 # 7. Crea un diccionario que contenga como clave tu nombre y como valor la cantidad de letras de la clave,
@@ -111,6 +120,8 @@ def crearDiccionario(nombre, apellido1, apellido2):
     return diccionario
 nombre = "Nombre"
 apellido1 = "Apellido1"
+print()
+print()
 '''
 OUTPUT:
 Nombre
