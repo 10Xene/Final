@@ -55,7 +55,15 @@ El número ahora es 1
 #    y una vez indicados se llama a la función pasando los números que el usuario ha escrito.
 #    La función sumará los números y devolverá el resultado
 
-
+def solicitarNumero(mensaje):
+    while True:
+        try:
+            numero = int(input(mensaje))
+            return numero
+        except ValueError:
+            print("Por favor, ingresa un número válido.")  
+numero1 = solicitarNumero("Introduce el primer número: ")
+numero2 = solicitarNumero("Introduce el segundo número: ")
 def sumar(numero1, numero2):
     return numero1 + numero2
 print(f"SUMA: {sumar(numero1, numero2)}")
