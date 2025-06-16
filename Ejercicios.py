@@ -19,7 +19,7 @@ def imprimirNumeros(lista):
         print(numero)
 imprimirNumeros(numeros)
 
-print()
+
 
 '''
 OUTPUT:
@@ -41,7 +41,7 @@ def reducirNumero():
     while numero >= 0:
         print(f"El número ahora es {numero}")
         numero -= 1
-print()
+
 
 '''
 OUTPUT:
@@ -71,7 +71,7 @@ def sumar(numero1, numero2):
     return numero1 + numero2
 print(f"SUMA: {sumar(numero1, numero2)}")
 
-print()
+
 
 
 # 5. Crea una función para que, cuando se le pase una lista cualquiera, imprima sus valores en orden inverso
@@ -83,7 +83,7 @@ def imprimirListaInversa(lista):
 nombres = ["Mengano", "Fulano", "Zutano", "Perantano"]
 imprimirListaInversa(nombres)
 
-print()
+
 
 '''
 OUTPUT:
@@ -103,7 +103,7 @@ def buscarPalabra(lista, palabra):
 print(buscarPalabra(["Fulano", "Mengano", "Zutano"], "Mengano")) # OUTPUT: True
 
 
-print()
+
 
 
 
