@@ -102,6 +102,7 @@ def buscarPalabra(lista, palabra):
     return palabra in lista
 print(buscarPalabra(["Fulano", "Mengano", "Zutano"], "Mengano")) # OUTPUT: True
 
+
 print()
 print()
 
